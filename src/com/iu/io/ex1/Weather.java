@@ -2,26 +2,27 @@ package com.iu.io.ex1;
 
 public class Weather {
 	private String city;
-	private double temperature;
-	private int humidity;
+	private double gion;
+	private int huminity;
 	private String status;
+	
 	public String getCity() {
 		return city;
 	}
 	public void setCity(String city) {
 		this.city = city;
 	}
-	public double getTemperature() {
-		return temperature;
+	public double getGion() {
+		return gion;
 	}
-	public void setTemperature(double temperature) {
-		this.temperature = temperature;
+	public void setGion(double gion) {
+		this.gion = gion;
 	}
-	public int getHumidity() {
-		return humidity;
+	public int getHuminity() {
+		return huminity;
 	}
-	public void setHumidity(int humidity) {
-		this.humidity = humidity;
+	public void setHuminity(int huminity) {
+		this.huminity = huminity;
 	}
 	public String getStatus() {
 		return status;
@@ -31,7 +32,5 @@ public class Weather {
 	}
 	
 	
-	
-	
-	
+
 }

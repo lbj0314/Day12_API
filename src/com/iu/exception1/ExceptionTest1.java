@@ -3,7 +3,7 @@ package com.iu.exception1;
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class EceptionTest1 {
+public class ExceptionTest1 {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
